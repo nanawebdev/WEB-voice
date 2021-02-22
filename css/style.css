@@ -1,0 +1,152 @@
+/* * {
+  box-sizing: border-box;
+} */
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+* :focus {
+  outline: 3px solid orange;
+}
+
+h2 {
+  font-weight: 400;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  padding: 0;
+}
+
+.about-page-label {
+  padding-bottom: 13px;
+}
+
+.audio-btn {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 13px 24px;
+}
+
+.add-to-cart-icon {
+  fill: #ffffff;
+}
+
+.audio-btn span {
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+  margin-right: 8px;
+}
+
+.audio-btn:hover {
+  background-color: rgb(168, 168, 166);
+}
+
+.main-header {
+  background-color: rgb(228, 228, 226);
+  justify-content: center;
+  display: flex;
+}
+
+.nav-list {
+ height:50px;
+  margin: 0;
+  color: black;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+
+.nav-link {
+  padding: 16px 24px;
+}
+
+.nav-link:hover {
+  background-color: rgb(168, 168, 166);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.product-page {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.product-nav {
+  background-color: rgb(228, 228, 226);
+  margin: 8px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.properties-text,
+.description-text {
+  display: none;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.add-to-cart {
+  background-color: #158f2998;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.price {
+  border: 2px solid #158f2998;
+  padding: 13px 13px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-weight: 500;
+}
+
+.add-to-cart:hover {
+  background-color: #73c78598;
+}
+
+.product-data {
+  display: flex;
+  justify-content: center;
+}
+
+.section-footer,
+.section-header  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
