@@ -1,7 +1,7 @@
 let currentAudio = new Audio
 function playAudio(filename) {
   currentAudio.pause();
-  currentAudio.src = `/sounds/${filename}.mp3`
+  currentAudio.src = `./sounds/${filename}.mp3`
   currentAudio.play();
 }
 
