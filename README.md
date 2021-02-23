@@ -26,4 +26,5 @@
  Добро пожаловать на мою страницу с озвучкой:  https://nanawebdev.github.io/web-and-voice/
  
   Буду рада идеям и помощи проекту. Я верю в то, что вместе мы сможем изменить мир вокруг нас!
+  Мой Instagram https://www.instagram.com/anna.web.dev/
   
